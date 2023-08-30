@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@mlqt/vue-back-top": "^1.0.8",
+    "@vue/compiler-sfc": "^3.3.4",
     "core-js": "^3.6.5",
     "hooper": "^0.3.4",
     "node-sass": "^8.0.0",
