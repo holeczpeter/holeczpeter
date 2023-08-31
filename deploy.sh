@@ -3,7 +3,7 @@
 set -e
 
 npm run build
-
+cp CNAME 
 cd dist
 
 git init
