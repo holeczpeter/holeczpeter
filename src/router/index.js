@@ -1,27 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import NotFound from "../views/NotFound.vue";
-import Preview from "../views/Preview.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Preview",
-    meta: {
-      title: "Preview",
-    },
-    component: Preview,
-  },
-  {
-    path: "/creative-portfolio",
     name: "CreativePortfolio",
     meta: {
       title: "Creative Portfolio",
     },
     component: () => import("../views/all-home-version/CreativePortfolio.vue"),
   },
+  
   {
     path: "*",
     name: NotFound,
