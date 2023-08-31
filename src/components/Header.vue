@@ -95,6 +95,16 @@
                 </a>
               </li>
               <li>
+                <a href="#brand" @click="active = !active">
+                  Partnerek
+                </a>
+              </li>
+               <li>
+                <a href="#testimonial" @click="active = !active">
+                  Rólam mondták
+                </a>
+              </li>
+              <li>
                 <a href="#contact" @click="active = !active">
                   Kapcsolat
                 </a>
