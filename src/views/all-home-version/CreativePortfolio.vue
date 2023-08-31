@@ -12,18 +12,20 @@
         <!--  End container -->
       </div>
     </div>
-     <div class="shane_tm_section" id="about">
-     <div class="container">
+    <div class="shane_tm_section" id="experience">
+      <div class="shane_tm_experience">
+        <div class="container">
           <div class="shane_tm_title">
             <span>Tapasztalat</span>
             <h3>Szakmai tapasztalat</h3>
           </div>
           <!-- End shane_tm_title -->
-        <Experience />
+          <Experience />
           <!-- End news  -->
         </div>
-      
+      </div>
     </div>
+    
     <!-- End About Section -->
     <div class="shane_tm_section" id="portfolio">
       <div class="shane_tm_news">

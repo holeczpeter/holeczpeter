@@ -1,92 +1,30 @@
  <template>
- 
-      <div>
-      <div class="timeline">
-
-	<!--first-->
-	<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-		<div class="timeline__event__icon ">
-			<!-- <i class="lni-sport"></i>-->
-
-		</div>
-		<div class="timeline__event__date">
-			Április 2020 - jelenleg
-		</div>
-		<div class="timeline__event__content ">
-			<div class="timeline__event__title">
-				Egyéni vállalkozó
-			</div>
-			<div class="timeline__event__description">
-				<p>Full Stack fejlesztés. Webalkalmazások és weboldalak készítése</p>
-			</div>
-		</div>
-	</div>
-
-	<!--second-->
-
-	<div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
-		<div class="timeline__event__icon">
-			<!-- <i class="lni-sport"></i>-->
-
-		</div>
-		<div class="timeline__event__date">
-			November 2019 - jelenleg
-		</div>
-		<div class="timeline__event__content">
-			<div class="timeline__event__title">
-				SDA DMS Zrt.
-			</div>
-			<div class="timeline__event__description">
-				<p>Full Stack fejlesztő</p>
-			</div>
-		</div>
-	</div>
-
-	<!--third-->
-
-	<div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
-		<div class="timeline__event__icon">
-			<!-- <i class="lni-sport"></i>-->
-
-		</div>
-		<div class="timeline__event__date">
-			October 2017 - November 2019
-		</div>
-		<div class="timeline__event__content">
-			<div class="timeline__event__title">
-				DLM Solutions Kft.
-			</div>
-			<div class="timeline__event__description">
-				<p>.Net fejlesztő</p>
-			</div>
-
-		</div>
-	</div>
-
-	<!--forth-->
-
-	<div class="timeline__event animated fadeInUp timeline__event--type1">
-		<div class="timeline__event__icon">
-			<!-- <i class="lni-sport"></i>-->
-
-		</div>
-		<div class="timeline__event__date">
-			October 2010 - October 2017
-		</div>
-		<div class="timeline__event__content">
-			<div class="timeline__event__title">
-				Hechinger Hungary Kft.
-			</div>
-			<div class="timeline__event__description">
-				<p>MIR mérnök, szoftverfejlesztés</p>
-			</div>
-		</div>
-	</div>
-
-     </div>
-      </div>
-      
- 
+  <div class="experience_list">
+    
+<ul class="timeline-ul">
+    <li style="--accent-color:#41516C">
+        <div class="date">2020 - jelenleg</div>
+        <div class="title">Egyéni vállalkozó</div>
+        <div class="descr">Full Stack fejlesztés | Webalkalmazások | weboldalak fejlesztése</div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">2019 - jelenleg</div>
+        <div class="title">SDA DMS ZRT.</div>
+        <div class="descr">Full Stack fejlesztés | .NET | Angular</div>
+    </li>
+    <li style="--accent-color:#E24A68">
+        <div class="date">2017 - 2019</div>
+        <div class="title">DLM Solutions Kft.</div>
+        <div class="descr">.NET fejlesztő</div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">2010-2017</div>
+        <div class="title">Hechinger Hungary Kft.</div>
+        <div class="descr">MIR Mérnök | Szoftverfejlesztés</div>
+    </li>
+    
+</ul>
+</div>
  
 </template>
 
