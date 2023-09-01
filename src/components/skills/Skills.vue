@@ -5,13 +5,12 @@
         <div class="skills_inner">
           <div
             class="left"
-            v-scroll-reveal="{ delay: 50, distance: '50px', duration: 1000 }"
-          >
+            v-scroll-reveal="{ delay: 50, distance: '50px', duration: 1000 }">
             <div class="shane_tm_title">
               <h3>Magas szintű fejlesztési és programozási képességekkel rendelkezem</h3>
             </div>
             <div class="text">
-              <p>
+              <p class="justify-p">
                Az évek során megszerzett tapasztalatom és tudásom révén olyan projekteken dolgoztam, amelyekben az innováció és a funkcionalitás egyesítése volt a fő cél. A frontend tervezéstől kezdve a felhasználói élmény kialakításán át egészen a sziklaszilárd backend architektúráig mindent megteszek azért, hogy a digitális térben otthonosan mozoghass. Az éleslátásom és a részletek iránti maximalizmusom segítségével olyan webalkalmazásokat hozok létre, amelyek nem csak esztétikusak és felhasználóbarátok, de a magas színvonalú kódolás révén rendkívül hatékonyak és skálázhatóak is.
               </p>
             </div>

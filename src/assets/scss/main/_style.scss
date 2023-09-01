@@ -1507,6 +1507,9 @@ body.loaded .overlay_effect:after {
   transform: translateY(102%);
   transition: all 1s ease;
 }
+.hooper-track{
+  align-items: center;
+}
 .shane_tm_testimonials
   .right
   .hooper-slide.is-active.is-current
@@ -2684,6 +2687,9 @@ body.dark .shane_tm_settings .cursor li .svg,
   text-align: center;
   transition: all 0.3s ease;
   top: 0px;
+}
+.justify-p{
+  text-align: justify;
 }
 .shane_tm_intro .demo_list ul li .list_inner img {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);

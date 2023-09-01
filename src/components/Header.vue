@@ -5,7 +5,7 @@
         <div class="topbar_inner">
           <div class="logo">
             <router-link to="/">
-              <img src="../assets/img/logo/new/logo.png" alt="partners brand" />
+              <img src="../assets/img/logo/new/dark.png" alt="partners brand" />
             </router-link>
           </div>
           <!-- End logo -->
@@ -39,7 +39,7 @@
             <div class="logo">
               <router-link to="/">
                 <img
-                  src="../assets/img/logo/new/logo.png"
+                  src="../assets/img/logo/new/dark.png"
                   alt="partners brand"
                 />
               </router-link>
@@ -68,9 +68,8 @@
           <span
             class="close_menu"
             @click="active = !active"
-            :aria-pressed="active ? 'true' : 'false'"
-          >
-            close
+            :aria-pressed="active ? 'true' : 'false'">
+            bezár
           </span>
           <div class="dropdown_inner">
             <ul class="anchor_nav">

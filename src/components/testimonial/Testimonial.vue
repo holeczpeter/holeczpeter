@@ -4,7 +4,7 @@
       <ul>
         <li class="item">
           <div class="texts">
-            <p>
+            <p class="justify-p">
               {{ tesimonial.desc }}
             </p>
             <div class="author">

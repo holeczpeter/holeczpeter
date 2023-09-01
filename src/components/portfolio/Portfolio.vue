@@ -66,7 +66,7 @@
                     <!-- End details -->
 
                     <div class="description">
-                      <p>
+                      <p class="justify-p">
                         Ez a weboldal a kreativitás és technológia művészi összeolvadása, amely a fotózás világába varázsolja Önt. Az elegáns design és a felhasználóbarát felület együttműködése által könnyedén felfedezheti a portfóliót, és mélyen belemélyedhet a képek történeteibe.
                       </p>
                     </div>
@@ -151,7 +151,7 @@
                     <!-- End details -->
 
                     <div class="description">
-                      <p>
+                       <p class="justify-p">
                         Azt hisszük, hogy minden hiba rejt magában lehetőséget a fejlődésre. Ezért hoztuk létre ezt a kifinomult szoftvert, amely lehetővé teszi, hogy a hibákat ne csak problémaként lássuk, hanem a folyamatos javulás és hatékonyság növelés lehetőségének előfutáraként.
                         Ez az alkalmazás lehetővé teszi, hogy a hibák adatait gyorsan és hatékonyan kezelje, és egyúttal részletes statisztikákat, interaktív grafikonokat és informatív táblázatokat generáljon a hibaelőfordulásokról. Legyen a döntések készítése mostantól adatvezérelt és pontos, amelyek a termelési hatékonyság növelését célozzák.
                         A .Net Core és Angular technológiák összjátéka garantálja a stabil és biztonságos működést, miközben a felhasználóbarát felület révén könnyedén és gyorsan navigálhat az adatok között. Bármikor és bárhonnan elérheti az alkalmazást, így mindig képben lehet a gyártási folyamatokkal.
@@ -237,7 +237,7 @@
                     </div>
                     <!-- End details -->
                     <div class="description">
-                      <p>
+                      <p class="justify-p">
                         Fedezze fel az exkluzív rendszergazda/informatikus portfólió weboldalt, ahol a digitális rendszerek és az informatikai megoldások mögötti zsenialitás feltárul.
                       </p>
                     </div>
@@ -293,8 +293,7 @@
                   <img
                     class="svg"
                     src="../../assets/img/svg/cancel.svg"
-                    alt="cancel-img"
-                  />
+                    alt="cancel-img"/>
                 </div>
                 <!-- End .close -->
                 <div class="shane_tm_modalbox_news">
@@ -321,7 +320,7 @@
                     <!-- End details -->
 
                     <div class="description">
-                      <p>
+                     <p class="justify-p">
                       Üdvözöllek a személyes portfóliómban! Ezen az úton szeretném megmutatni neked a kreativitásom és a fejlődésem legjavát. A weboldalam Vue.js technológiával lett létrehozva, így garantáltan modern és interaktív élményt nyújt. Fedezd fel a projekteket, amelyeken dolgoztam, és ismerd meg a különböző készségeimet azáltal, hogy böngészed a reszumémat. Ha szeretnél egyedi és hatásos megoldásokat látni, amelyekkel inspirálódhatsz, akkor a helyes helyen jársz. Köszönöm, hogy meglátogattad az oldalamat, remélem, hogy élvezni fogod a tartalmat és az alkotásaimat!
                      </p>
                     </div>
