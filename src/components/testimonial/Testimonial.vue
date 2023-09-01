@@ -51,7 +51,7 @@ export default {
           name: "Pesti Rajmund",
           designation: "Informatikus",
           imgSrc: require("../../assets/img/testimotional/2.jpg"),
-          desc: `A weboldal, amit számomra készített, egyszerűen lenyűgöző. Péter rendkívül tehetséges full-stack fejlesztés terén.  Ha valóban kiváló minőségű webfejlesztőt keresel, aki nem csak érti a technológiát, hanem a problémáidat is, [Név] az ember, akit keresel. `,
+          desc: `A weboldal, amit számomra készített, egyszerűen lenyűgöző. Péter rendkívül tehetséges full-stack fejlesztés terén.  Ha valóban kiváló minőségű webfejlesztőt keresel, aki nem csak érti a technológiát, hanem a problémáidat is, Peti az ember, akit keresel. `,
         },
         {
           name: "Pálfia Ádám",

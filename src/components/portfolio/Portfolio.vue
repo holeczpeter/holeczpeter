@@ -321,7 +321,7 @@
 
                     <div class="description">
                      <p class="justify-p">
-                      Üdvözöllek a személyes portfóliómban! Ezen az úton szeretném megmutatni neked a kreativitásom és a fejlődésem legjavát. A weboldalam Vue.js technológiával lett létrehozva, így garantáltan modern és interaktív élményt nyújt. Fedezd fel a projekteket, amelyeken dolgoztam, és ismerd meg a különböző készségeimet azáltal, hogy böngészed a reszumémat. Ha szeretnél egyedi és hatásos megoldásokat látni, amelyekkel inspirálódhatsz, akkor a helyes helyen jársz. Köszönöm, hogy meglátogattad az oldalamat, remélem, hogy élvezni fogod a tartalmat és az alkotásaimat!
+                      Üdvözöllek a személyes portfóliómban! A weboldalam Vue.js technológiával lett létrehozva, így garantáltan modern és interaktív élményt nyújt. Fedezd fel a projekteket, amelyeken dolgoztam, és ismerd meg a különböző készségeimet. Ha szeretnél egyedi és hatásos megoldásokat látni, amelyekkel inspirálódhatsz, akkor a helyes helyen jársz. Köszönöm, hogy meglátogattad az oldalamat, remélem, hogy élvezni fogod a tartalmat és az alkotásaimat!
                      </p>
                     </div>
                     <!-- End description -->
