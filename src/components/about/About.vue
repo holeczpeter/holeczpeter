@@ -22,9 +22,9 @@
       </div>
       <div class="text" v-scroll-reveal="{ delay: 60 }">
         <p class="justify-p">
-         Üdvözöllek a weboldalamon! Örülök, hogy ellátogattál hozzám. Engedd meg, hogy bemutatkozzam: Holecz Péter vagyok, egy szenvedélyes és elkötelezett full-stack fejlesztő 10 éves tapasztalattal a háromlábú világban - a frontend, backend és adatbázis rétegek összehangolásában.
+         Üdvözlöm a weboldalamon! Örülök, hogy ellátogattott hozzám. Engedje meg, hogy bemutatkozzam: Holecz Péter vagyok, egy szenvedélyes és elkötelezett full-stack fejlesztő 10 éves tapasztalattal a háromlábú világban - a frontend, backend és adatbázis rétegek összehangolásában.
          Hiszek abban, hogy a fejlődés sosem áll meg. Mindig éberen figyelem a legújabb trendeket és technológiákat, hogy mindig a legfrissebb eszközökkel és megoldásokkal rendelkezzek a következő kihívásokhoz. Az együttműködés, a kreativitás és a problémamegoldás iránti szenvedélyem mindig jelen van minden projektem során.
-        Ha szeretnél együtt dolgozni egy lenyűgöző webalkalmazás vagy honlap létrehozásán, vagy csak egyszerűen megosztanád ötleteidet és gondolataidat, ne habozz kapcsolatba lépni velem. Az innováció és a minőség iránti elkötelezettségemmel garantálom, hogy közös munkánk során valódi értéket teremtünk.
+         Ha szeretne velem együtt dolgozni egy lenyűgöző webalkalmazás vagy honlap létrehozásán, vagy csak egyszerűen megosztaná ötleteit és gondolatait, ne habozzon kapcsolatba lépni velem. Az innováció és a minőség iránti elkötelezettségemmel garantálom, hogy közös munkánk során valódi értéket teremtünk.
         </p>
       </div>
       <div class="shane_tm_button" v-scroll-reveal="{ delay: 80 }">
