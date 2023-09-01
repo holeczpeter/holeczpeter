@@ -488,6 +488,7 @@ h6 {
   transition: all 0.3s ease;
 }
 .shane_tm_topbar .topbar_inner {
+  background-color: white;
   width: 100%;
   height: auto;
   clear: both;
@@ -1577,6 +1578,7 @@ body.loaded .overlay_effect:after {
   overflow: hidden;
 }
 .shane_tm_news .news_list > ul > li .image img {
+  height: 200px;
   min-width: 100%;
   opacity: 0;
 }
@@ -3159,6 +3161,7 @@ body.intro .loader_line:after {
     background-color: #000;
   }
   .shane_tm_topbar .topbar_inner {
+    
     max-width: 1200px;
     margin: 0 auto;
   }

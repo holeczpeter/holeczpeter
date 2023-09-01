@@ -18,8 +18,8 @@
               :alwaysTrack="true">
               <a href="#home" class="scrollactive-item">Kezdőlap</a>
               <a href="#about" class="scrollactive-item">Rólam</a>
-              <a href="#portfolio" class="scrollactive-item">Portfolio</a>
-              <a href="#skills" class="scrollactive-item">Skills</a>
+              <a href="#portfolio" class="scrollactive-item">Munkáim</a>
+              <a href="#skills" class="scrollactive-item">Portfolio</a>
               <a href="#brand" class="scrollactive-item">Partnerek</a>
               <a href="#testimonial" class="scrollactive-item">Rólam mondták</a>
               <a href="#contact" class="scrollactive-item">Kapcsolat</a>
@@ -85,12 +85,12 @@
               </li>
               <li>
                 <a href="#portfolio" @click="active = !active">
-                  Portfolio
+                  Munkáim
                 </a>
               </li>
              <li>
                 <a href="#skills" @click="active = !active">
-                  Skills
+                  Portfolio
                 </a>
               </li>
               <li>

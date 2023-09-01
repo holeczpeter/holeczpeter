@@ -29,11 +29,11 @@
               >
                 <span>
                   <span class="label">Webfejlesztés</span>
-                  <span class="number">95%</span>
+                  <span class="number">20%</span>
                 </span>
                 <div class="background">
                   <div class="bar">
-                    <div class="bar_in" style="width:95%"></div>
+                    <div class="bar_in" style="width:20%"></div>
                   </div>
                 </div>
               </div>
@@ -49,11 +49,11 @@
               >
                 <span>
                   <span class="label">Webalkalmazások</span>
-                  <span class="number">80%</span>
+                  <span class="number">70%</span>
                 </span>
                 <div class="background">
                   <div class="bar">
-                    <div class="bar_in" style="width:80%"></div>
+                    <div class="bar_in" style="width:70%"></div>
                   </div>
                 </div>
               </div>
@@ -69,11 +69,11 @@
               >
                 <span>
                   <span class="label">Asztali alkalmazások</span>
-                  <span class="number">90%</span>
+                  <span class="number">10%</span>
                 </span>
                 <div class="background">
                   <div class="bar">
-                    <div class="bar_in" style="width:90%"></div>
+                    <div class="bar_in" style="width:10%"></div>
                   </div>
                 </div>
               </div>

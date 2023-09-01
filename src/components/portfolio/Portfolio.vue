@@ -1,6 +1,165 @@
 <template>
   <div class="news_list">
     <ul>
+    <li>
+        <div class="list_inner" v-scroll-reveal="{ delay: 100 }">
+          <div class="image">
+            <img src="../../assets/img/placeholders/oee.jpg" alt="thumb" />
+            <div
+              class="main"
+              @click="showModal7"
+              :style="{ backgroundImage: 'url(' + imgSrc7 + ')' }"
+            ></div>
+          </div>
+          <!-- End image -->
+
+          <div class="details">
+            <h3 class="title" @click="showModal7">
+              OEE - teljes eszközhatékonyság
+            </h3>
+            <p class="date">
+              <a href="#">Webalkalmazás</a> <span>.NET</span>
+            </p>
+          </div>
+          <!-- End details -->
+        </div>
+        <!-- Start Modalbox -->
+        <transition name="fade">
+          <!-- Modal -->
+          <div
+            :class="{ 'modal-mask': isActive7 }"
+            id="modal"
+            @click="closeModal7"
+            v-if="isVisible7">
+            <div class="modal-dialog modal-dialog-centered " @click.stop>
+              <div class="modal-content">
+                <div class="close" @click="closeModal7">
+                  <img
+                    class="svg"
+                    src="../../assets/img/svg/cancel.svg"
+                    alt="cancel-img"
+                  />
+                </div>
+                <!-- End .close -->
+                <div class="shane_tm_modalbox_news">
+                  <div class="box_inner">
+                    <div class="image">
+                      <img
+                        src="../../assets/img/placeholders/oee.jpg"
+                        alt="thumb"
+                      />
+                      <div
+                        class="main"
+                        :style="{ backgroundImage: 'url(' + imgSrc7 + ')' }"
+                      ></div>
+                    </div>
+                    <!-- End image -->
+                    <div class="details">
+                      <h3 class="title">
+                        OEE - Teljes eszközhatékonyság
+                      </h3>
+                      <p class="date">
+                        <a href="#">Alkalmazás</a>
+                      </p>
+                    </div>
+                    <!-- End details -->
+                    <div class="description">
+                      <p class="justify-p">
+                         Az OEE segítségével maximalizálhatja gépei hatékonyságát, csökkentheti az állásidőket és optimalizálhatja a termelési folyamatokat. Ha valódi versenyelőnyre vágyik a gyártásban, az OEE program a kulcs a sikerhez!
+                      </p>
+                    </div>
+                    <!-- End description -->
+                  </div>
+                  <!-- End .box_inner -->
+                </div>
+                <!-- shane_tm_modalbox_news -->
+              </div>
+            </div>
+          </div>
+        </transition>
+        <!-- End Modalbox -->
+      </li>
+    <li>
+        <div class="list_inner" v-scroll-reveal="{ delay: 100 }">
+          <div class="image">
+            <img src="../../assets/img/placeholders/spc.jpg" alt="thumb" />
+            <div
+              class="main"
+              @click="showModal6"
+              :style="{ backgroundImage: 'url(' + imgSrc6 + ')' }"
+            ></div>
+          </div>
+          <!-- End image -->
+
+          <div class="details">
+            <h3 class="title" @click="showModal6">
+              SPC - Statiszikai folyamatszabályozás
+            </h3>
+            <p class="date">
+              <a href="#">Webalkalmazás</a> <span>.NET</span>
+            </p>
+          </div>
+          <!-- End details -->
+        </div>
+        <!-- Start Modalbox -->
+        <transition name="fade">
+          <!-- Modal -->
+          <div
+            :class="{ 'modal-mask': isActive6 }"
+            id="modal"
+            @click="closeModal6"
+            v-if="isVisible6">
+            <div class="modal-dialog modal-dialog-centered " @click.stop>
+              <div class="modal-content">
+                <div class="close" @click="closeModal6">
+                  <img
+                    class="svg"
+                    src="../../assets/img/svg/cancel.svg"
+                    alt="cancel-img"
+                  />
+                </div>
+                <!-- End .close -->
+                <div class="shane_tm_modalbox_news">
+                  <div class="box_inner">
+                    <div class="image">
+                      <img
+                        src="../../assets/img/placeholders/spc.jpg"
+                        alt="thumb"
+                      />
+                      <div
+                        class="main"
+                        :style="{ backgroundImage: 'url(' + imgSrc6 + ')' }"
+                      ></div>
+                    </div>
+                    <!-- End image -->
+                    <div class="details">
+                      <h3 class="title">
+                        SPC - Statisztikai folyamatszabályozás
+                      </h3>
+                      <p class="date">
+                        <a href="#">Alkalmazás</a>
+                       
+                      </p>
+                    </div>
+                    <!-- End details -->
+
+                    <div class="description">
+                      <p class="justify-p">
+                         Bemutatom SPC alkalmazásomat (Statisztikai folyamatszabályozó program), ami forradalmasítja a minőségellenőrzést és a folyamatoptimalizálást. Az SPC segítségével könnyedén monitorozhatja és szabályozhatja a termelési folyamatokat valós időben, minimalizálva a hibák és selejtek számát, így növelve a hatékonyságot és a termékminőséget. Hozza ki a legtöbbet a gyártásából az SPC segítségével!
+                      </p>
+                    </div>
+                    <!-- End description -->
+                    
+                  </div>
+                  <!-- End .box_inner -->
+                </div>
+                <!-- shane_tm_modalbox_news -->
+              </div>
+            </div>
+          </div>
+        </transition>
+        <!-- End Modalbox -->
+      </li>
       <li>
         <div class="list_inner" v-scroll-reveal="{ delay: 100 }">
           <div class="image">
@@ -18,7 +177,7 @@
               VivienPhoto
             </h3>
             <p class="date">
-              <a href="#">Weboldal</a><span>Apr 2020</span> <span>React | HTML | CSS</span>
+              <a href="#">Weboldal</a> <span>React</span> <span>HTML</span> <span>CSS</span>
             </p>
           </div>
           <!-- End details -->
@@ -60,7 +219,7 @@
                       </h3>
                       <p class="date">
                         <a href="#">VivienPhoto</a>
-                        <span>07 April 2020</span>
+                      
                       </p>
                     </div>
                     <!-- End details -->
@@ -71,10 +230,7 @@
                       </p>
                     </div>
                     <!-- End description -->
-                    <div class="news_share">
-                      <Social />
-                    </div>
-                    <!-- End news share -->
+                    
                   </div>
                   <!-- End .box_inner -->
                 </div>
@@ -99,10 +255,10 @@
 
           <div class="details">
             <h3 class="title" @click="showModal2">
-              Hechinger FSK
+              Hechinger FSK - Hibagyűjtő és kiértékelő rendszer
             </h3>
             <p class="date">
-               <a href="#">Webalkalmazás</a> <span>01 Jan 2023</span>
+               <a href="#">Webalkalmazás</a> <span>.NET</span> <span>Angular</span> 
             </p>
           </div>
           <!-- End details -->
@@ -145,7 +301,7 @@
                       </h3>
                       <p class="date">
                         <a href="#"> Hechinger Hungary Kft</a>
-                        <span>01 Jan 2023</span>
+                        
                       </p>
                     </div>
                     <!-- End details -->
@@ -159,9 +315,7 @@
                     </div>
                     <!-- End description -->
 
-                    <div class="news_share">
-                      <Social />
-                    </div>
+                  
                     <!-- End news share -->
                   </div>
                   <!-- End .box_inner -->
@@ -190,7 +344,7 @@
               Pesti Rajmund
             </h3>
             <p class="date">
-             <a href="#">Weboldal</a> <span>Jun 2023</span> <span>HTML | CSS</span>
+             <a href="#">Weboldal</a>  <span>HTML | CSS</span>
             </p>
           </div>
           <!-- End details -->
@@ -232,7 +386,7 @@
                       </h3>
                       <p class="date">
                         <a href="#">Pesti Rajmund</a>
-                        <span>02 Jun 2023</span>
+                        
                       </p>
                     </div>
                     <!-- End details -->
@@ -242,10 +396,6 @@
                       </p>
                     </div>
                     <!-- End description -->
-                    <div class="news_share">
-                      <Social />
-                    </div>
-                    <!-- End news share -->
                   </div>
                   <!-- End .box_inner -->
                 </div>
@@ -273,7 +423,7 @@
               Holecz Péter
             </h3>
             <p class="date">
-               <a href="#">Weboldal</a> <span>Aug 2023</span> <span>VUE.js | HTML | CSS</span>
+               <a href="#">Weboldal</a> <span>VUE.js | HTML | CSS</span>
             </p>
           </div>
           <!-- End details -->
@@ -314,21 +464,91 @@
                       </h3>
                       <p class="date">
                         <a href="#"> Holecz Péter</a>
-                        <span>Aug 2023</span>
                       </p>
                     </div>
                     <!-- End details -->
-
                     <div class="description">
                      <p class="justify-p">
-                      Üdvözöllek a személyes portfóliómban! A weboldalam Vue.js technológiával lett létrehozva, így garantáltan modern és interaktív élményt nyújt. Fedezd fel a projekteket, amelyeken dolgoztam, és ismerd meg a különböző készségeimet. Ha szeretnél egyedi és hatásos megoldásokat látni, amelyekkel inspirálódhatsz, akkor a helyes helyen jársz. Köszönöm, hogy meglátogattad az oldalamat, remélem, hogy élvezni fogod a tartalmat és az alkotásaimat!
+                      Üdvözlöm a személyes portfóliómban! A weboldalam Vue.js technológiával lett létrehozva, így garantáltan modern és interaktív élményt nyújt. Fedezze fel a projekteket, amelyeken dolgoztam, és ismerje meg a különböző készségeimet. Ha szeretne egyedi és hatásos megoldásokat látni, amelyekkel inspirálódhat, akkor a megfelelő helyen jár. Köszönöm, hogy meglátogatta az oldalamat. Egyedi szoftverfejlesztési megoldások miatt lépjen kapcsolatba velem.
+                     </p>
+                    </div>
+                  </div>
+                  <!-- End .box_inner -->
+                </div>
+                <!-- shane_tm_modalbox_news -->
+              </div>
+            </div>
+          </div>
+        </transition>
+        <!-- End Modalbox -->
+      </li>
+      <li>
+        <div class="list_inner" v-scroll-reveal="{ delay: 50 }">
+          <div class="image">
+            <img src="../../assets/img/placeholders/idopontfoglalo.jpg" alt="thumb" />
+            <div
+              class="main"
+              @click="showModal5"
+              :style="{ backgroundImage: 'url(' + imgSrc5 + ')' }"
+            ></div>
+          </div>
+          <!-- End image -->
+
+          <div class="details">
+            <h3 class="title" @click="showModal5">
+              Időpontfoglaló
+            </h3>
+            <p class="date">
+               <a href="#">Webalkalmazás</a> <span>VUE.js</span> <span>HTML</span> <span>CSS</span>
+            </p>
+          </div>
+          <!-- End details -->
+        </div>
+
+        <!-- Start Modalbox -->
+        <transition name="fade">
+          <!-- Modal -->
+          <div
+            :class="{ 'modal-mask': isActive5 }"
+            id="modal"
+            @click="closeModal5"
+            v-if="isVisible5">
+            <div class="modal-dialog modal-dialog-centered " @click.stop>
+              <div class="modal-content">
+                <div class="close" @click="closeModal5">
+                  <img
+                    class="svg"
+                    src="../../assets/img/svg/cancel.svg"
+                    alt="cancel-img"/>
+                </div>
+                <!-- End .close -->
+                <div class="shane_tm_modalbox_news">
+                  <div class="box_inner">
+                    <div class="image">
+                      <img
+                        src="../../assets/img/placeholders/idopontfoglalo.jpg"
+                        alt="thumb"/>
+                      <div
+                        class="main"
+                        :style="{ backgroundImage: 'url(' + imgSrc5 + ')' }"
+                      ></div>
+                    </div>
+                    <!-- End image -->
+                    <div class="details">
+                      <h3 class="title">
+                        Időpontfoglaló webalkalmazás 
+                      </h3>
+                      <p class="date">
+                        <a href="#"> Holecz Péter</a>
+                      </p>
+                    </div>
+                    <!-- End details -->
+                    <div class="description">
+                     <p class="justify-p">
+                      Bemutatom az időpontfoglaló alkalmazást, amely egyszerű és hatékony módot kínál az idő optimalizálására. Az ügyfelei foglaljanak időpontokat könnyedén és gyorsan, és kövesse nyomon az időbeosztást az alkalmazás segítségével, így  több időt szánhat a fontos dolgokra az életében!
                      </p>
                     </div>
                     <!-- End description -->
-
-                    <div class="news_share">
-                      <Social />
-                    </div>
                     <!-- End news share -->
                   </div>
                   <!-- End .box_inner -->
@@ -346,25 +566,33 @@
 </template>
 
 <script>
-import Social from "../Social.vue";
+
 export default {
   components: {
-    Social,
   },
   data() {
     return {
       isActive: false,
       isActive2: false,
       isActive3: false,
-       isActive4: false,
+      isActive4: false,
+      isActive5: false,
+      isActive6: false,
+      isActive7: false,
       isVisible: false,
       isVisible2: false,
       isVisible3: false,
       isVisible4: false,
+      isVisible5: false,
+      isVisible6: false,
+      isVisible7: false,
       imgSrc: require("../../assets/img/news/1.jpg"),
       imgSrc2: require("../../assets/img/news/2.jpg"),
       imgSrc3: require("../../assets/img/news/3.jpg"),
       imgSrc4: require("../../assets/img/news/4.jpg"),
+      imgSrc5: require("../../assets/img/news/5.jpg"),
+      imgSrc6: require("../../assets/img/news/6.jpg"),
+      imgSrc7: require("../../assets/img/news/7.jpg"),
     };
   },
   methods: {
@@ -384,6 +612,18 @@ export default {
       this.isActive4 = true;
       this.isVisible4 = true;
     },
+     showModal5: function() {
+      this.isActive5 = true;
+      this.isVisible5 = true;
+    },
+     showModal6: function() {
+      this.isActive6 = true;
+      this.isVisible6 = true;
+    },
+     showModal7: function() {
+      this.isActive7 = true;
+      this.isVisible7 = true;
+    },
     closeModal: function() {
       this.isActive = false;
       this.isVisible = false;
@@ -399,6 +639,18 @@ export default {
     closeModal4: function() {
       this.isActive4 = false;
       this.isVisible4 = false;
+    },
+    closeModal5: function() {
+      this.isActive5 = false;
+      this.isVisible5 = false;
+    },
+     closeModal6: function() {
+      this.isActive6 = false;
+      this.isVisible6 = false;
+    },
+     closeModal7: function() {
+      this.isActive7 = false;
+      this.isVisible7 = false;
     },
   },
 };
