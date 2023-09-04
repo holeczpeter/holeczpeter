@@ -218,7 +218,7 @@
                         Fotós portfólió
                       </h3>
                       <p class="date">
-                        <a href="#">VivienPhoto</a>
+                        <a href="https://vivienphoto.com">VivienPhoto</a>
                       
                       </p>
                     </div>
@@ -341,7 +341,7 @@
           <!-- End image -->
           <div class="details">
             <h3 class="title" @click="showModal3">
-              Pesti Rajmund
+              PRIT
             </h3>
             <p class="date">
              <a href="#">Weboldal</a>  <span>HTML | CSS</span>
@@ -385,7 +385,7 @@
                         Informatikai rendszerek kiépítése
                       </h3>
                       <p class="date">
-                        <a href="#">Pesti Rajmund</a>
+                        <a href="https://prit.hu">PRIT.HU</a>
                         
                       </p>
                     </div>
