@@ -8,7 +8,8 @@ import BackTop from "@mlqt/vue-back-top";
 import VueScrollReveal from "vue-scroll-reveal";
 import "vue-cool-lightbox/dist/vue-cool-lightbox.min.css";
 import "./assets/scss/style.scss";
-
+import VueToast from 'vue-toast-notification';
+import 'vue-toast-notification/dist/theme-default.css';
 Vue.use(CoolLightBox);
 Vue.use(BackTop);
 Vue.use(VueScrollReveal, {
@@ -21,6 +22,7 @@ Vue.use(VueScrollReveal, {
 Vue.use(ScrollFixedHeader);
 Vue.use(VueParticles);
 Vue.use(VueScrollactive);
+Vue.use(VueToast);
 Vue.config.productionTip = false;
 
 new Vue({

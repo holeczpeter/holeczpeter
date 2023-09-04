@@ -1,8 +1,8 @@
 <template>
   <div class="tokyo_tm_contact">
     <div class="fields">
-      <ValidationObserver v-slot="{ handleSubmit }">
-        <form ref="form" class="contact_form" @submit.prevent="handleSubmit(onSubmit)">
+      <ValidationObserver v-slot="{ handleSubmit }" ref="form">
+        <form  class="contact_form" @submit.prevent="handleSubmit(onSubmit)">
           <div class="first">
             <ul>
               <ValidationProvider
@@ -66,17 +66,13 @@
         </form>
       </ValidationObserver>
     </div>
-    <!-- END FIELDS -->
   </div>
 </template>
-
 <script>
-
 
 import { ValidationObserver } from "vee-validate";
 import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
 import emailjs from '@emailjs/browser';
-
 
 export default {
   components: {
@@ -96,30 +92,49 @@ export default {
   },
 
   methods: {
-
-    onSubmit() {
-      var params = {
+    onSubmit () {
+       var params = {
         user_name: this.formData.user_name,
         user_email: this.formData.user_email,
         message:this.formData.message,
         subject: this.formData.subject,
-      }
-    emailjs.send('service_svna4xo', 'template_pe5jj3f', params, 'ugLo-2gkdgnt-b5_l')
+       };
+       emailjs.send('service_svna4xo', 'template_pe5jj3f', params, 'ugLo-2gkdgnt-b5_l')
         .then((result) => {
-          this.formData = {
-            name: "",
-            email: "",
-            message: "",
-          };
-          requestAnimationFrame(() => {
-        this.$refs.observer.reset();
-      });
-          console.log('SUCCESS!', result.text);
-        }, (error) => {
-            console.log('FAILED...', error.text);
+          if(result){
+            
+            this.makeSuccesfulToast();
+            this.formData = {
+              name: "",
+              email: "",
+              message: "",
+              };
+            this.$nextTick(() => {
+                this.$refs.form.reset();
+                this.isSended = false;
+              });
+          }
+          else{
+            this.makeUnSuccesfulToast();
+          } 
         });
+      
     },
-  },
+    makeSuccesfulToast() {
+      this.$toast.open({
+            message: 'Az üzenet sikeresen elküldve',
+            type: "success",
+            position: 'top'
+          });
+      },
+      makeUnSuccesfulToast() {
+      this.$toast.open({
+            message: 'Az üzenet küldése sikertelen',
+            type: "error",
+            position: 'top'
+          });
+      }
+  }
 };
 
 </script>

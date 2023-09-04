@@ -40,14 +40,12 @@
         @click="closeModal"
         v-if="isVisible">
         <div class="modal-dialog modal-dialog-centered " @click.stop>
-        
           <div class="modal-content calltoactions-content">
             <div class="close" @click="closeModal">
               <img
                 class="svg"
                 src="../../assets/img/svg/cancel.svg"
-                alt="cancel-img"
-              />
+                alt="cancel-img" />
             </div>
             <!-- End .close -->
 
@@ -59,7 +57,7 @@
                 <div class="wrapper">
                   <div class="left">
                     <div class="fields">
-                      <Contact />
+                      <Contact/>
                     </div>
                   </div>
                   <!-- End left -->
@@ -79,8 +77,7 @@
                         <img
                           class="svg"
                           src="../../assets/img/svg/location.svg"
-                          alt="location"
-                        />
+                          alt="location"/>
                         <p>6060, Tiszakécske Ady E. 79</p>
                       </div>
                     </li>
@@ -91,23 +88,19 @@
                         <img
                           class="svg"
                           src="../../assets/img/svg/phone.svg"
-                          alt="phone"
-                        />
+                          alt="phone" />
                         <p>
                           <a href="tel:+36 30 555 83 93">+36 30 555 83 93</a>
                         </p>
                       </div>
                     </li>
                     <!-- End silgle address -->
-
                     <li>
                       <div class="list_inner">
                         <img
                           class="svg"
                           src="../../assets/img/svg/share.svg"
-                          alt="share"
-                        />
-
+                          alt="share"/>
                         <Social />
                       </div>
                     </li>
