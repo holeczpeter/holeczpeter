@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="shane_tm_all_wrap">
-    <CreativePortfolio></CreativePortfolio>
+    <Home></Home>
     <back-top color="#fff" :size="1.2" bottom="5%" :slow="0"> </back-top>
   </div>
 </template>
@@ -28,12 +28,11 @@ export default {
 }
 </style>
 <script>
-import CreativePortfolio from "./views/all-home-version/CreativePortfolio.vue";
+import Home from "./views/Home.vue";
 
 export default {
   components: {
-    CreativePortfolio,
-   
+    Home,
   },
 };
 </script>

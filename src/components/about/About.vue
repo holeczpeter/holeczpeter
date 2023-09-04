@@ -36,18 +36,14 @@
     <!-- End right -->
     
   </div>
-  
-                            <!-- End Single Tab  -->
-
-                            
+  <!-- End Single Tab  -->     
 </template>
-
 <script>
 export default {
   data() {
     return {
       aboutImg: require("../../assets/img/about/2.jpg"),
-      cv: require("../../assets/img/resume/resume.jpg"),
+      cv: require("../../assets/img/about/CV_Holecz_Peter_Hun.jpg"),
     };
   },
 };

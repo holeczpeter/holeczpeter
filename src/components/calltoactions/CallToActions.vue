@@ -38,9 +38,9 @@
         :class="{ 'modal-mask': isActive }"
         id="modal"
         @click="closeModal"
-        v-if="isVisible"
-      >
+        v-if="isVisible">
         <div class="modal-dialog modal-dialog-centered " @click.stop>
+        
           <div class="modal-content calltoactions-content">
             <div class="close" @click="closeModal">
               <img
@@ -56,7 +56,6 @@
                 <div class="title">
                   <h3>Vegye fel velem a kapcsolatot</h3>
                 </div>
-
                 <div class="wrapper">
                   <div class="left">
                     <div class="fields">

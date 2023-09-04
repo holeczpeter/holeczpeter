@@ -4,9 +4,7 @@
       <div class="shane_tm_topbar">
         <div class="topbar_inner">
           <div class="logo">
-            <router-link to="/">
-              <img src="../assets/img/logo/new/dark.png" alt="partners brand" />
-            </router-link>
+          <img src="../assets/img/logo/new/dark.png" alt="partners brand" />
           </div>
           <!-- End logo -->
           <div class="menu">
@@ -37,12 +35,10 @@
         <div class="container bigger">
           <div class="topbar_in">
             <div class="logo">
-              <router-link to="/">
-                <img
+              <img
                   src="../assets/img/logo/new/dark.png"
                   alt="partners brand"
                 />
-              </router-link>
             </div>
             <!-- End logo -->
             <div class="my_trigger">

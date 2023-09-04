@@ -30,11 +30,5 @@
 
 <script>
 export default {
-  data() {
-    return {
-      aboutImg: require("../../assets/img/about/2.jpg"),
-      cv: require("../../assets/img/resume/resume.jpg"),
-    };
-  },
 };
 </script>

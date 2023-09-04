@@ -31,9 +31,7 @@ export default {
         {
           src: require("../assets/img/partners/4.svg"),
         },
-        {
-          src: require("../assets/img/partners/5.svg"),
-        },
+       
         {
           src: require("../assets/img/partners/6.svg"),
         },

@@ -56,7 +56,7 @@ export default {
         {
           name: "Pálfia Ádám",
           designation: "Minőségirányítási vezető",
-          imgSrc: require("../../assets/img/about/3.jpg"),
+          imgSrc: require("../../assets/img/testimotional/3.jpg"),
           desc: `A hibaösszesítő alkalmazás olyan egyszerűséget és hatékonyságot hozott a mindennapi munkánkba, amit korábban elképzelni sem mertünk. Holecz Péter figyelme a részletekre és az ügyfelek igényeinek megértése valóban megkülönbözteti őt a szakmában. A közös munka során mindig rugalmas volt, könnyen együtt tudtunk dolgozni és megértette, hogy pontosan mire van szükségünk.`,
         },
       ],

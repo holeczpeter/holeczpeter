@@ -89,16 +89,16 @@
 </template>
 
 <script>
-import Header from "../../components/Header";
-import Slider from "../../components/slider/Slider";
-import About from "../../components/about/About";
-import Portfolio from "../../components/portfolio/Portfolio";
-import Skills from "../../components/skills/Skills";
-import Brand from "../../components/Brand";
-import Experience from "../../components/experience/Experience";
-import Testimonial from "../../components/testimonial/Testimonial";
-import CallToActions from "../../components/calltoactions/CallToActions";
-import Footer from "../../components/Footer";
+import Header from "../components/Header";
+import Slider from "../components/slider/Slider";
+import About from "../components/about/About";
+import Portfolio from "../components/portfolio/Portfolio";
+import Skills from "../components/skills/Skills";
+import Brand from "../components/Brand";
+import Experience from "../components/experience/Experience";
+import Testimonial from "../components/testimonial/Testimonial";
+import CallToActions from "../components/calltoactions/CallToActions";
+import Footer from "../components/Footer";
 export default {
   components: {
     Header,
