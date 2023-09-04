@@ -6,10 +6,8 @@
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service serve",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider &&  vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
-  },
-  "engines": {
-    "node": "16.18.1"
+    "deploy": "sh deploy.sh",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -22,6 +20,8 @@
     "vee-validate": "^3.4.7",
     "vue": "^2.6.11",
     "vue-cool-lightbox": "^2.7.4",
+    "vue-i18n": "^8.26.3",
+    "vue-i18n-bridge": "^9.2.0-beta.10",
     "vue-particles": "^1.0.9",
     "vue-router": "^3.5.1",
     "vue-scroll-reveal": "^1.0.11",
@@ -30,12 +30,14 @@
     "vuejs-scroll-fixed-header": "^1.0.3"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-loader": "^3.2.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-i18n": "~2.3.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -56,5 +58,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "engines": {
+    "node": "16.18.1"
+  }
 }

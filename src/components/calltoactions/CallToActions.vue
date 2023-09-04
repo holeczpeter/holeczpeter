@@ -2,38 +2,28 @@
   <div
     class="shane_tm_talk bg_image_props"
     :style="{ backgroundImage: 'url(' + imgSrc + ')' }"
-    id="contact"
-  >
+    id="contact">
     <div class="shape">
       <img
         class="svg"
         src="../../assets/img/svg/paper.svg"
-        alt="partners brand"
-      />
+        alt="partners brand"/>
     </div>
-    <!-- End shape -->
-
     <div class="background" id="talk">
       <a class="player"></a>
       <div class="overlay"></div>
     </div>
-    <!-- End background -->
-
     <div class="talk_inner">
       <div class="text" v-scroll-reveal="{ delay: 100 }">
-        <h3>Dolgozzunk együtt!</h3>
+        <h3>{{$t('work_together')}}</h3>
       </div>
       <div class="button" v-scroll-reveal="{ delay: 200 }">
         <button class="white-fill-bg" @click="showModal">
-          Kapcsolat
+          {{$t('open_contact')}}
         </button>
       </div>
     </div>
-    <!-- End talk_inner -->
-
-    <!-- Start Modalbox -->
     <transition name="fade">
-      <!-- Modal -->
       <div
         :class="{ 'modal-mask': isActive }"
         id="modal"
@@ -47,12 +37,10 @@
                 src="../../assets/img/svg/cancel.svg"
                 alt="cancel-img" />
             </div>
-            <!-- End .close -->
-
             <div class="shane_tm_mobalbox_contact">
               <div class="box_inner">
                 <div class="title">
-                  <h3>Vegye fel velem a kapcsolatot</h3>
+                  <h3>{{$t('contact_me')}}</h3>
                 </div>
                 <div class="wrapper">
                   <div class="left">
@@ -60,16 +48,12 @@
                       <Contact/>
                     </div>
                   </div>
-                  <!-- End left -->
                   <div class="right">
                     <div class="map_wrap">
                       <Map />
                     </div>
                   </div>
-                  <!-- End right -->
                 </div>
-                <!-- End wrapper -->
-
                 <div class="short_info">
                   <ul>
                     <li>
@@ -81,8 +65,6 @@
                         <p>6060, Tiszakécske Ady E. 79</p>
                       </div>
                     </li>
-                    <!-- End silgle address -->
-
                     <li>
                       <div class="list_inner">
                         <img
@@ -94,7 +76,6 @@
                         </p>
                       </div>
                     </li>
-                    <!-- End silgle address -->
                     <li>
                       <div class="list_inner">
                         <img
@@ -104,21 +85,15 @@
                         <Social />
                       </div>
                     </li>
-                    <!-- End silgle address -->
                   </ul>
                 </div>
-                <!-- End modal conetent -->
               </div>
-              <!-- End box inner -->
             </div>
-            <!-- End modalbox news -->
           </div>
         </div>
       </div>
     </transition>
-    <!-- End Modalbox -->
   </div>
-  <!-- Start Modal -->
 </template>
 
 <script>

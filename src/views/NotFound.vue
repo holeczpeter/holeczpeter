@@ -7,8 +7,8 @@
 
         <div class="white-fill-bg btn-outline" >
           BACK TO HOME
-        </router-link>
-        <!--  End purchase_button -->
+        </div>
+        
       </div>
     </div>
     <!-- End .hero -->

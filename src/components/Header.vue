@@ -6,7 +6,6 @@
           <div class="logo">
           <img src="../assets/img/logo/new/dark.png" alt="partners brand" />
           </div>
-          <!-- End logo -->
           <div class="menu">
             <scrollactive
               class="anchor_nav"
@@ -14,21 +13,19 @@
               :offset="95"
               :duration="100"
               :alwaysTrack="true">
-              <a href="#home" class="scrollactive-item">Kezdőlap</a>
-              <a href="#about" class="scrollactive-item">Rólam</a>
-              <a href="#portfolio" class="scrollactive-item">Munkáim</a>
-              <a href="#skills" class="scrollactive-item">Portfolio</a>
-              <a href="#brand" class="scrollactive-item">Partnerek</a>
-              <a href="#testimonial" class="scrollactive-item">Rólam mondták</a>
-              <a href="#contact" class="scrollactive-item">Kapcsolat</a>
+              <a href="#home" class="scrollactive-item">{{ $t('home') }}</a>
+              <a href="#about" class="scrollactive-item">{{ $t('about') }}</a>
+              <a href="#portfolio" class="scrollactive-item">{{ $t('works') }}</a>
+              <a href="#skills" class="scrollactive-item">{{ $t('portfolio') }}</a>
+              <a href="#brand" class="scrollactive-item">{{ $t('partners') }}</a>
+              <a href="#testimonial" class="scrollactive-item">{{ $t('testimonial') }}</a>
+              <a href="#contact" class="scrollactive-item">{{ $t('contact') }}</a>
             </scrollactive>
           </div>
-          <!-- End menu -->
+          <Language></Language><br/><br/>
         </div>
       </div>
-      <!--  End shane_tm_topbar -->
     </scroll-fixed-header>
-
     <!-- Start shane mobile menu -->
     <div class="shane_tm_mobile_menu">
       <div class="topbar_inner">
@@ -37,24 +34,19 @@
             <div class="logo">
               <img
                   src="../assets/img/logo/new/dark.png"
-                  alt="partners brand"
-                />
+                  alt="partners brand"/>
             </div>
-            <!-- End logo -->
             <div class="my_trigger">
               <div
                 class="hamburger hamburger--collapse-r"
-                :class="{ 'is-active': active }"
-              >
+                :class="{ 'is-active': active }">
                 <div
                   class="hamburger-box"
                   @click="active = !active"
-                  :aria-pressed="active ? 'true' : 'false'"
-                >
+                  :aria-pressed="active ? 'true' : 'false'">
                   <div class="hamburger-inner"></div>
                 </div>
               </div>
-              <!-- End hamburger menu -->
             </div>
           </div>
         </div>
@@ -65,43 +57,43 @@
             class="close_menu"
             @click="active = !active"
             :aria-pressed="active ? 'true' : 'false'">
-            bezár
+             {{ $t('close') }}
           </span>
           <div class="dropdown_inner">
             <ul class="anchor_nav">
               <li class="current">
                 <a href="#home" @click="active = !active">
-                  Kezdőlap
+                  {{ $t('home') }}
                 </a>
               </li>
               <li>
                 <a href="#about" @click="active = !active">
-                  Rólam
+                  {{ $t('about') }}
                 </a>
               </li>
               <li>
                 <a href="#portfolio" @click="active = !active">
-                  Munkáim
+                 {{ $t('works') }}
                 </a>
               </li>
              <li>
                 <a href="#skills" @click="active = !active">
-                  Portfolio
+                   {{ $t('portfolio') }}
                 </a>
               </li>
               <li>
                 <a href="#brand" @click="active = !active">
-                  Partnerek
+                  {{ $t('partners') }}
                 </a>
               </li>
                <li>
                 <a href="#testimonial" @click="active = !active">
-                  Rólam mondták
+                  {{ $t('testimonial') }}
                 </a>
               </li>
               <li>
                 <a href="#contact" @click="active = !active">
-                  Kapcsolat
+                  {{ $t('contact') }}
                 </a>
               </li>
             </ul>
@@ -120,9 +112,11 @@
 
 <script>
 import Social from "../components/SocialTwo.vue";
+import Language from "../components/language/Language.vue";
 export default {
   components: {
     Social,
+    Language,
   },
   data() {
     return {

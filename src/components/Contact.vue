@@ -51,8 +51,8 @@
                 <li>
                   <textarea
                     v-model="formData.message"
-                    placeholder="Üzenet"
-                  ></textarea>
+                    placeholder="Üzenet">
+                  </textarea>
                   <span class="inpur-error">{{ errors[0] ? 'A üzenet szövegének megadása kötelező' : ''}}</span>
                 </li>
               </ValidationProvider>
@@ -60,7 +60,7 @@
           </div>
           <div class="tokyo_tm_button">
             <button type="submit" class="white-fill-bg fill-black">
-              Üzenet küldése
+               {{$t('send')}}
             </button>
           </div>
         </form>

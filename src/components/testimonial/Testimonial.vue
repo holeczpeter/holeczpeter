@@ -5,21 +5,20 @@
         <li class="item">
           <div class="texts">
             <p class="justify-p">
-              {{ tesimonial.desc }}
+               {{$t(tesimonial.desc)}}
             </p>
             <div class="author">
               <div class="image">
                 <div
                   class="main"
-                  :style="{ backgroundImage: 'url(' + tesimonial.imgSrc + ')' }"
-                ></div>
+                  :style="{ backgroundImage: 'url(' + tesimonial.imgSrc + ')' }" ></div>
               </div>
               <div class="short">
                 <h3 class="author">
                   <span>{{ tesimonial.name }}</span>
                 </h3>
                 <h3 class="job">
-                  <span>{{ tesimonial.designation }}</span>
+                  <span> {{$t(tesimonial.designation)}} </span>
                 </h3>
               </div>
             </div>
@@ -43,21 +42,21 @@ export default {
       testimonialContent: [
         {
           name: "Vivien Vincze",
-          designation: "Photographer",
+          designation: `vivienphoto_designation`,
           imgSrc: require("../../assets/img/testimotional/1.jpg"),
-          desc: `Az együttműködésünk során Peti mindig türelmes volt, és mindent megtett annak érdekében, hogy a weboldalam olyan legyen, amilyennek elképzeltem. A végeredmény olyan lett, amely tükrözi a munkám lényegét és szépségét.`,
+          desc: `vivienphoto_testimonial`,
         },
         {
           name: "Pesti Rajmund",
-          designation: "Informatikus",
+          designation: `pesti_rajmund_designation`,
           imgSrc: require("../../assets/img/testimotional/2.jpg"),
-          desc: `A weboldal, amit számomra készített, egyszerűen lenyűgöző. Péter rendkívül tehetséges full-stack fejlesztés terén.  Ha valóban kiváló minőségű webfejlesztőt keresel, aki nem csak érti a technológiát, hanem a problémáidat is, Peti az ember, akit keresel. `,
+          desc: `pesti_rajmund_testimonial`,
         },
         {
           name: "Pálfia Ádám",
-          designation: "Minőségirányítási vezető",
+          designation: `hechiner_designation`,
           imgSrc: require("../../assets/img/testimotional/3.jpg"),
-          desc: `A hibaösszesítő alkalmazás olyan egyszerűséget és hatékonyságot hozott a mindennapi munkánkba, amit korábban elképzelni sem mertünk. Holecz Péter figyelme a részletekre és az ügyfelek igényeinek megértése valóban megkülönbözteti őt a szakmában. A közös munka során mindig rugalmas volt, könnyen együtt tudtunk dolgozni és megértette, hogy pontosan mire van szükségünk.`,
+          desc: `Hechinger_testimonial`,
         },
       ],
       hooperSettings: {

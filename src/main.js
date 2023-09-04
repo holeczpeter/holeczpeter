@@ -10,6 +10,13 @@ import "vue-cool-lightbox/dist/vue-cool-lightbox.min.css";
 import "./assets/scss/style.scss";
 import VueToast from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-default.css';
+import i18n from './i18n'
+import en from './locales/en.json'
+import hu from './locales/hu.json'
+
+export default {
+    en, hu
+}
 Vue.use(CoolLightBox);
 Vue.use(BackTop);
 Vue.use(VueScrollReveal, {
@@ -26,5 +33,6 @@ Vue.use(VueToast);
 Vue.config.productionTip = false;
 
 new Vue({
-  render: (h) => h(App),
+  i18n,
+  render: (h) => h(App)
 }).$mount("#app");

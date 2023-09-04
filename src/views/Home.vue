@@ -1,46 +1,36 @@
 <template>
   <div class="home-two">
     <Header />
-    <!-- End Header Section -->
     <Slider />
-    <!-- End Slider Section -->
     <div class="shane_tm_section" id="about">
       <div class="shane_tm_about">
         <div class="container">
           <About />
         </div>
-        <!--  End container -->
       </div>
     </div>
     <div class="shane_tm_section" id="experience">
       <div class="shane_tm_experience">
         <div class="container">
           <div class="shane_tm_title">
-            <span>Tapasztalat</span>
-            <h3>Szakmai tapasztalat</h3>
+            <span>{{ $t('experience') }}</span>
+            <h3>{{ $t('professional_experience') }}</h3>
           </div>
-          <!-- End shane_tm_title -->
           <Experience />
-          <!-- End news  -->
         </div>
       </div>
     </div>
-    
-    <!-- End About Section -->
     <div class="shane_tm_section" id="portfolio">
       <div class="shane_tm_news">
         <div class="container">
           <div class="shane_tm_title">
-            <span>Munkáim</span>
-            <h3>Publikus munkáim</h3>
+            <span>{{ $t('works') }}</span>
+            <h3>{{ $t('public_works') }}</h3>
           </div>
-          <!-- End shane_tm_title -->
           <Portfolio />
-          <!-- End news  -->
         </div>
       </div>
     </div>
-    <!-- End Portfolio Section -->
    <div class="shane_tm_section" id="skills">
       <div class="shane_tm_portfolio">
          <Skills />
@@ -65,8 +55,8 @@
           <div class="testimonials_inner">
             <div class="left" v-scroll-reveal="{ delay: 50 }">
               <div class="shane_tm_title">
-                <span>Rólam mondták</span>
-                <h3>Ügyfeleim véleménye</h3>
+                <span>{{ $t('tesimonial') }}</span>
+                <h3>{{ $t('client_testimonials') }}</h3>
               </div>
             </div>
             <div class="right" v-scroll-reveal="{ delay: 150 }">
@@ -112,6 +102,7 @@ export default {
     CallToActions,
     Footer,
   },
+ 
 };
 </script>
 

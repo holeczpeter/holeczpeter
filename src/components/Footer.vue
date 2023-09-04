@@ -6,13 +6,11 @@
           <p>
             &copy; {{ new Date().getFullYear() }}
            Holecz Péter
-            . Minden jog fenntartva.
+            {{$t('all_rights_reserved')}}   
           </p>
         </div>
-        <!-- End inner -->
       </div>
     </div>
-    <!-- End shane_tm_copyright -->
   </div>
 </template>
 <script>

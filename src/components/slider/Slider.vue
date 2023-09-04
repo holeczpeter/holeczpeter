@@ -7,35 +7,26 @@
         :style="{ backgroundImage: 'url(' + sliderHero + ')' }"
       ></div>
     </div>
-    <!-- End .background -->
-
     <div class="container">
       <div class="content">
         <div class="name_wrap">
           <h3><span>Holecz</span>Peter<span class="overlay_effect"></span></h3>
         </div>
-        <!-- End title -->
-
         <div class="job_wrap">
           <span class="job">
              Full-stack Developer
             <span class="overlay_effect"></span>
           </span>
         </div>
-        <!-- End designation -->
       </div>
-      <!-- End content -->
-
       <div class="shane_tm_down loaded">
         <div class="line_wrapper">
           <div class="line"></div>
         </div>
       </div>
     </div>
-    <!-- End .container -->
   </div>
 </template>
-
 <script>
 export default {
   data() {
