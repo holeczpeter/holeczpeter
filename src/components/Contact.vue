@@ -13,9 +13,9 @@
                   <input
                     v-model="formData.user_name"
                     type="text"
-                    placeholder="Név"
+                    :placeholder="$t('name')"
                     autocomplete="off"/>
-                    <span class="inpur-error">{{ errors[0] ? 'A név megadása kötelező' : ''}}</span>
+                    <span class="inpur-error">{{ errors[0] ? $t('name_required') : ''}}</span>
                 </li>
               </ValidationProvider>
               <ValidationProvider
@@ -27,8 +27,8 @@
                     type="text"
                     rules="required|user_email"
                     v-model="formData.user_email"
-                    placeholder="E-mail"/>
-                 <span class="inpur-error">{{ errors[0] ? 'Az e-mail cím nem megfelelő' : ''}}</span>
+                    :placeholder="$t('email')"/>
+                 <span class="inpur-error">{{ errors[0] ? $t('email_notvalid') : ''}}</span>
                 </li>
               </ValidationProvider>
               <ValidationProvider
@@ -39,9 +39,9 @@
                   <input
                     v-model="formData.subject"
                     type="text"
-                    placeholder="Tárgy"
+                    :placeholder="$t('subject')"
                     autocomplete="off"/>
-                 <span class="inpur-error">{{ errors[0] ? 'A tárgy megadása kötelező' : ''}}</span>
+                 <span class="inpur-error">{{ errors[0] ? $t('subject_required') : ''}}</span>
                 </li>
               </ValidationProvider>
               <ValidationProvider
@@ -51,9 +51,9 @@
                 <li>
                   <textarea
                     v-model="formData.message"
-                    placeholder="Üzenet">
+                    :placeholder="$t('message')">
                   </textarea>
-                  <span class="inpur-error">{{ errors[0] ? 'A üzenet szövegének megadása kötelező' : ''}}</span>
+                  <span class="inpur-error">{{ errors[0] ? $t('message_required') : ''}}</span>
                 </li>
               </ValidationProvider>
             </ul>
@@ -102,7 +102,6 @@ export default {
        emailjs.send('service_svna4xo', 'template_pe5jj3f', params, 'ugLo-2gkdgnt-b5_l')
         .then((result) => {
           if(result){
-            
             this.makeSuccesfulToast();
             this.formData = {
               name: "",
@@ -122,14 +121,14 @@ export default {
     },
     makeSuccesfulToast() {
       this.$toast.open({
-            message: 'Az üzenet sikeresen elküldve',
+            message: this.$t('send_succesful'),
             type: "success",
             position: 'top'
           });
       },
       makeUnSuccesfulToast() {
       this.$toast.open({
-            message: 'Az üzenet küldése sikertelen',
+            message: this.$t('send_unsuccesful'),
             type: "error",
             position: 'top'
           });

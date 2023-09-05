@@ -8,7 +8,6 @@
         /></a>
       </li>
     </ul>
-    <!-- End. social -->
   </div>
 </template>
 

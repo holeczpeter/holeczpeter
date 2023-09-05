@@ -53,7 +53,7 @@
   "message":"Message",
   "send":"Send",
   "name_required":"Name is required",
-  "email_required":"E-mail is required",
+  "email_notvalid":"The email address is not valid.",
   "subject_required":"Subject is required",
   "message_required":"Message is required",
   "send_succesful":"The message has been successfully sent.",

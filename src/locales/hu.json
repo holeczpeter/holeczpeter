@@ -53,7 +53,7 @@
     "message":"Üzenet",
     "send":"Üzenet küldése",
     "name_required":"A név megadása kötelező",
-    "email_required":"Az e-mail megadása kötelező",
+    "email_notvalid":"Az e-mail cím nem megfelelő",
     "subject_required":"A tárgy megadása kötelező",
     "message_required":"Az üzenet megadása kötelező",
     "send_succesful":"Az üzenet sikeresen elküldve",

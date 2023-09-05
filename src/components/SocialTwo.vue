@@ -6,7 +6,6 @@
       /></a>
     </li>
   </ul>
-  <!-- End. social -->
 </template>
 
 <script>
