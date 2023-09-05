@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="shane_tm_all_wrap">
-    <Home></Home>
+    <router-view></router-view>
     <back-top color="#fff" :size="1.2" bottom="5%" :slow="0"> </back-top>
   </div>
 </template>
@@ -27,12 +27,3 @@ export default {
   font-size: 20px !important;
 }
 </style>
-<script>
-import Home from "./views/Home.vue";
-
-export default {
-  components: {
-    Home,
-  },
-};
-</script>

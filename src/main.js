@@ -13,7 +13,7 @@ import 'vue-toast-notification/dist/theme-default.css';
 import i18n from './i18n'
 import en from './locales/en.json'
 import hu from './locales/hu.json'
-
+import router from "./router";
 export default {
     en, hu
 }
@@ -33,6 +33,7 @@ Vue.use(VueToast);
 Vue.config.productionTip = false;
 
 new Vue({
+  router,
   i18n,
   render: (h) => h(App)
 }).$mount("#app");

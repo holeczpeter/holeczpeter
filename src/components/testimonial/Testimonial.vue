@@ -1,24 +1,24 @@
 <template>
   <hooper :settings="hooperSettings">
-    <slide v-for="(tesimonial, i) in testimonialContent" :key="i">
+    <slide v-for="(testimonial, i) in testimonialContent" :key="i">
       <ul>
         <li class="item">
           <div class="texts">
             <p class="justify-p">
-               {{$t(tesimonial.desc)}}
+               {{$t(testimonial.desc)}}
             </p>
             <div class="author">
               <div class="image">
                 <div
                   class="main"
-                  :style="{ backgroundImage: 'url(' + tesimonial.imgSrc + ')' }" ></div>
+                  :style="{ backgroundImage: 'url(' + testimonial.imgSrc + ')' }" ></div>
               </div>
               <div class="short">
                 <h3 class="author">
-                  <span>{{ tesimonial.name }}</span>
+                  <span>{{ testimonial.name }}</span>
                 </h3>
                 <h3 class="job">
-                  <span> {{$t(tesimonial.designation)}} </span>
+                  <span> {{$t(testimonial.designation)}} </span>
                 </h3>
               </div>
             </div>

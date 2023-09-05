@@ -55,7 +55,7 @@
           <div class="testimonials_inner">
             <div class="left" v-scroll-reveal="{ delay: 50 }">
               <div class="shane_tm_title">
-                <span>{{ $t('tesimonial') }}</span>
+                <span>{{ $t('testimonial') }}</span>
                 <h3>{{ $t('client_testimonials') }}</h3>
               </div>
             </div>
