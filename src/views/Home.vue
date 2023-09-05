@@ -33,7 +33,7 @@
     </div>
    <div class="shane_tm_section" id="skills">
       <div class="shane_tm_portfolio">
-         <Skills />
+         <Works />
       </div>
     </div>
     <!-- End Skills Section -->
@@ -83,11 +83,11 @@ import Header from "../components/Header";
 import Slider from "../components/slider/Slider";
 import About from "../components/about/About";
 import Portfolio from "../components/portfolio/Portfolio";
-import Skills from "../components/skills/Skills";
 import Brand from "../components/Brand";
 import Experience from "../components/experience/Experience";
 import Testimonial from "../components/testimonial/Testimonial";
 import CallToActions from "../components/calltoactions/CallToActions";
+import Works from "../components/works/Works";
 import Footer from "../components/Footer";
 export default {
   components: {
@@ -95,11 +95,11 @@ export default {
     Slider,
     About,
     Portfolio,
-    Skills,
     Brand,
     Experience,
     Testimonial,
     CallToActions,
+    Works,
     Footer,
   },
  
