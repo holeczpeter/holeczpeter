@@ -16,7 +16,10 @@
               OEE - {{$t('oee')}}
             </h3>
             <p class="date">
-              <a href="#">{{$t('web_app')}}</a> <span>.NET</span>
+              <a href="#">{{$t('multilanguage')}} {{$t('web_app')}}</a> 
+            </p>
+            <p class="date">
+              .NET
             </p>
           </div>
         </div>
@@ -50,7 +53,7 @@
                         OEE -  {{$t('oee')}}
                       </h3>
                       <p class="date">
-                        <a href="#">{{$t('web_app')}}</a>
+                        <a href="#">{{$t('multilanguage')}}  {{$t('web_app')}}</a>
                       </p>
                     </div>
                     <div class="description">
@@ -72,17 +75,18 @@
             <div
               class="main"
               @click="showModal6"
-              :style="{ backgroundImage: 'url(' + imgSrc6 + ')' }"
-            ></div>
+              :style="{ backgroundImage: 'url(' + imgSrc6 + ')' }">
+            </div>
           </div>
-          <!-- End image -->
-
           <div class="details">
             <h3 class="title" @click="showModal6">
               SPC -  {{$t('spc')}}
             </h3>
             <p class="date">
-              <a href="#">{{$t('web_app')}}</a> <span>.NET</span>
+              <a href="#">{{$t('multilanguage')}}  {{$t('web_app')}}</a> 
+            </p>
+             <p class="date">
+              .NET
             </p>
           </div>
         </div>
@@ -116,8 +120,9 @@
                         SPC - {{$t('spc')}}
                       </h3>
                       <p class="date">
-                        <a href="#">{{$t('web_app')}}</a>
+                        <a href="#">{{$t('multilanguage')}}  {{$t('web_app')}}</a>
                       </p>
+                      
                     </div>
                     <div class="description">
                       <p class="justify-p">
@@ -146,7 +151,10 @@
               VivienPhoto
             </h3>
             <p class="date">
-              <a href="#"> {{$t('web_pages')}} </a> <span>React</span> <span>HTML</span> <span>CSS</span>
+              <a href="#">{{$t('multilanguage')}} {{$t('web_page')}} </a> 
+            </p>
+             <p class="date">
+              React <span>HTML</span> <span>CSS</span>
             </p>
           </div>
         </div>
@@ -210,7 +218,10 @@
               Hechinger FSK - {{$t('fsk')}}
             </h3>
             <p class="date">
-               <a href="#">{{$t('web_app')}}</a> <span>.NET</span> <span>Angular</span> 
+              <a href="#">{{$t('multilanguage')}}  {{$t('web_app')}}</a>
+            </p>
+            <p class="date">
+             .NET <span>Angular</span>
             </p>
           </div>
         </div>
@@ -272,10 +283,12 @@
             <h3 class="title" @click="showModal3">
               PRIT
             </h3>
-             <p class="date">
-               <a href="#">{{$t('web_pages')}}</a> <span>.NET</span> <span>Angular</span> 
+            <p class="date">
+               <a href="#">{{$t('web_page')}}</a> 
             </p>
-           
+            <p class="date">
+              HTML <span>CSS</span> 
+            </p>
           </div>
         </div>
         <transition name="fade">
@@ -338,7 +351,10 @@
               Holecz Péter
             </h3>
             <p class="date">
-               <a href="#">{{$t('web_pages')}}</a> <span>VUE.js | HTML | CSS</span>
+               <a href="#"> {{$t('multilanguage')}}   {{$t('web_page')}}</a> 
+            </p>
+            <p class="date">
+               VUE.js <span> HTML</span> <span>CSS</span>
             </p>
           </div>
         </div>
@@ -402,7 +418,10 @@
               {{$t('scheduler_web_application')}}  
             </h3>
             <p class="date">
-               <a href="#">{{$t('web_app')}}</a> <span>VUE.js</span> <span>HTML</span> <span>CSS</span>
+               <a href="#">{{$t('multilanguage')}} {{$t('web_app')}}</a> 
+            </p>
+            <p class="date">
+               VUE.js <span>HTML</span> <span>CSS</span>
             </p>
           </div>
         </div>

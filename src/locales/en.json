@@ -17,6 +17,7 @@
   "developer":"developer",
   "web_apps":"Web applications",
   "web_app":"Web application",
+  "web_page":"Website",
   "web_pages":"Website Development",
   "desktop_apps":"Desktop applications",
   "engineer": "engineer",
@@ -57,5 +58,6 @@
   "subject_required":"Subject is required",
   "message_required":"Message is required",
   "send_succesful":"The message has been successfully sent.",
-  "send_unsuccesful":"The message sending has failed."
+  "send_unsuccesful":"The message sending has failed.",
+  "multilanguage":"Multilanguage"
 }

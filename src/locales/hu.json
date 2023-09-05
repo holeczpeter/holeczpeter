@@ -57,7 +57,8 @@
     "subject_required":"A tárgy megadása kötelező",
     "message_required":"Az üzenet megadása kötelező",
     "send_succesful":"Az üzenet sikeresen elküldve",
-    "send_unsuccesful":"Az üzenet küldése sikertelen"
+    "send_unsuccesful":"Az üzenet küldése sikertelen",
+    "multilanguage":"Multilanguage"
 
 }
 
