@@ -20,9 +20,10 @@
               <a href="#brand" class="scrollactive-item">{{ $t('partners') }}</a>
               <a href="#testimonial" class="scrollactive-item">{{ $t('testimonial') }}</a>
               <a href="#contact" class="scrollactive-item">{{ $t('contact') }}</a>
+              <Language></Language><br/><br/>
             </scrollactive>
           </div>
-          <Language></Language><br/><br/>
+          
         </div>
       </div>
     </scroll-fixed-header>

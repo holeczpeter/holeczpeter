@@ -54,9 +54,9 @@ export default {
         },
         {
           name: "Pálfia Ádám",
-          designation: `hechiner_designation`,
+          designation: `hechinger_designation`,
           imgSrc: require("../../assets/img/testimotional/3.jpg"),
-          desc: `Hechinger_testimonial`,
+          desc: `hechinger_testimonial`,
         },
       ],
       hooperSettings: {
