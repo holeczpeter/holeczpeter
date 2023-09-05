@@ -403,73 +403,7 @@
           </div>
         </transition>
       </li>
-      <li>
-        <div class="list_inner" v-scroll-reveal="{ delay: 50 }">
-          <div class="image">
-            <img src="../../assets/img/placeholders/idopontfoglalo.jpg" alt="thumb" />
-            <div
-              class="main"
-              @click="showModal5"
-              :style="{ backgroundImage: 'url(' + imgSrc5 + ')' }">
-            </div>
-          </div>
-          <div class="details">
-            <h3 class="title" @click="showModal5">
-              {{$t('scheduler_web_application')}}  
-            </h3>
-            <p class="date">
-               <a href="#">{{$t('multilanguage')}} {{$t('web_app')}}</a> 
-            </p>
-            <p class="date">
-               VUE.js <span>HTML</span> <span>CSS</span>
-            </p>
-          </div>
-        </div>
-        <transition name="fade">
-          <div
-            :class="{ 'modal-mask': isActive5 }"
-            id="modal"
-            @click="closeModal5"
-            v-if="isVisible5">
-            <div class="modal-dialog modal-dialog-centered " @click.stop>
-              <div class="modal-content">
-                <div class="close" @click="closeModal5">
-                  <img
-                    class="svg"
-                    src="../../assets/img/svg/cancel.svg"
-                    alt="cancel-img"/>
-                </div>
-                <div class="shane_tm_modalbox_news">
-                  <div class="box_inner">
-                    <div class="image">
-                      <img
-                        src="../../assets/img/placeholders/idopontfoglalo.jpg"
-                        alt="thumb"/>
-                      <div
-                        class="main"
-                        :style="{ backgroundImage: 'url(' + imgSrc5 + ')' }">
-                      </div>
-                    </div>
-                    <div class="details">
-                      <h3 class="title">
-                         {{$t('scheduler_web_application')}}  
-                      </h3>
-                      <p class="date">
-                        <a href="#"> Holecz Péter</a>
-                      </p>
-                    </div>
-                    <div class="description">
-                      <p class="justify-p">
-                        {{$t('scheduler_web_application_details')}}      
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </transition>
-      </li>
+      
     </ul>
   </div>
 </template>
