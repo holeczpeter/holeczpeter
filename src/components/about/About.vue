@@ -23,21 +23,25 @@
         <p class="justify-p">
          {{ $t('about_detail') }}  </p>
       </div>
-      <div class="shane_tm_button" v-scroll-reveal="{ delay: 80 }">
-        <a :href="cv" download>
-         {{ $t('cv_download') }}
+      <div class="shane_tm_button" v-scroll-reveal="{ delay: 80 }" >
+        <a :href="cv_eng" download>
+         {{ $t('cv_download') }} 
         </a>
       </div>
+     
     </div>
   </div>  
 </template>
 <script>
 export default {
+  
   data() {
     return {
+      lang: sessionStorage.getItem("locale") ? sessionStorage.getItem("locale") : 'en',
       aboutImg: require("../../assets/img/about/2.jpg"),
-      cv: require("../../assets/img/about/CV_Holecz_Peter_Hun.jpg"),
+      cv_eng: require("../../assets/img/about/CV_Holecz_Peter_Eng.jpg"),
     };
   },
+ 
 };
 </script>

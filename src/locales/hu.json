@@ -17,6 +17,7 @@
     "developer":"fejlesztő",
     "web_apps":"Webalkalmazások",
     "web_app":"Webalkalmazás",
+    "web_page": "Weboldal",
     "web_pages":"Weboldalak fejlesztése",
     "desktop_apps":"Asztali alkalmazások",
     "engineer": "mérnök",
@@ -58,7 +59,7 @@
     "message_required":"Az üzenet megadása kötelező",
     "send_succesful":"Az üzenet sikeresen elküldve",
     "send_unsuccesful":"Az üzenet küldése sikertelen",
-    "multilanguage":"Multilanguage"
+    "multilanguage":"Többnyelvű"
 
 }
 

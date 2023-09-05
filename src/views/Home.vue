@@ -5,7 +5,7 @@
     <div class="shane_tm_section" id="about">
       <div class="shane_tm_about">
         <div class="container">
-          <About />
+          <About/>
         </div>
       </div>
     </div>
@@ -16,7 +16,7 @@
             <span>{{ $t('experience') }}</span>
             <h3>{{ $t('professional_experience') }}</h3>
           </div>
-          <Experience />
+          <Experience/>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
             <span>{{ $t('works') }}</span>
             <h3>{{ $t('public_works') }}</h3>
           </div>
-          <Portfolio />
+          <Portfolio/>
         </div>
       </div>
     </div>
@@ -36,19 +36,15 @@
          <Works />
       </div>
     </div>
-    <!-- End Skills Section -->
-
     <div class="shane_tm_section" id="brand">
       <div class="shane_tm_partners">
         <div class="container">
           <div class="partners_inner">
-            <Brand />
+            <Brand/>
           </div>
         </div>
       </div>
     </div>
-    <!-- End shane_tm_partners -->
-    
     <div class="shane_tm_section" id="testimonial">
       <div class="shane_tm_testimonials">
         <div class="container">
@@ -60,21 +56,16 @@
               </div>
             </div>
             <div class="right" v-scroll-reveal="{ delay: 150 }">
-              <Testimonial />
+              <Testimonial/>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End  shane_tm_testimonials -->
-    
     <div class="shane_tm_section" id="contact">
-       <CallToActions />
+       <CallToActions/>
     </div>
-    <!-- End  call to actions -->
-
-    <Footer />
-    <!-- End  footer  -->
+    <Footer/>
   </div>
 </template>
 
