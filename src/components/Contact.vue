@@ -99,7 +99,7 @@ export default {
         message:this.formData.message,
         subject: this.formData.subject,
        };
-       emailjs.send('service_svna4xo', 'template_pe5jj3f', params, 'ugLo-2gkdgnt-b5_l')
+       emailjs.send('service_bkv6h9d', 'template_pe5jj3f', params, 'ugLo-2gkdgnt-b5_l')
         .then((result) => {
           if(result){
             this.makeSuccesfulToast();
