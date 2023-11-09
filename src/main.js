@@ -15,7 +15,7 @@ import en from './locales/en.json'
 import hu from './locales/hu.json'
 import router from "./router";
 export default {
-     hu,en
+     en,hu
 }
 Vue.use(CoolLightBox);
 Vue.use(BackTop);
