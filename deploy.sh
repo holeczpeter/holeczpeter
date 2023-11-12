@@ -20,7 +20,7 @@ if [ ! -f ../.github/workflows/deploy.yml ]; then
 on:
   push:
     branches:
-      - gh-pages  # A fő ág neve, cseréld le az aktuális ág nevére
+      - master  # A fő ág neve, cseréld le az aktuális ág nevére
 
 jobs:
   deploy:
