@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 set -e
-
-npm run build
 cp .github/workflows/deploy.yml dist/
+npm run build
+
 cd dist
 
 git init
