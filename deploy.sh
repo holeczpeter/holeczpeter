@@ -4,7 +4,7 @@ set -e
 
 npm run build
 
-cp .github/workflows/deploy.yml dist/
+cp .github/workflows/deploy.yml dist/github/workflows/deploy.yml
 
 
 cd dist
