@@ -4,8 +4,10 @@ set -e
 
 npm run build
 
+cp .github/workflows/deploy.yml dist/
+
+
 cd dist
-cp ./.github/workflows/deploy.yml .
 git init
 git add -A
 git commit -m 'New Deployment'
