@@ -3,7 +3,7 @@
 set -e
 
 npm run build
-cp .github/workflows/deploy.yml dist/.github/workflows/
+cp .github/workflows/deploy.yml dist/
 cd dist
 
 git init
