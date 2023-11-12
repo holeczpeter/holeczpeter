@@ -3,7 +3,7 @@
 set -e
 
 npm run build
-
+mkdir -p dist/github/workflows
 cp .github/workflows/deploy.yml dist/github/workflows/deploy.yml
 mv deploy.yml .github/workflows/
 
