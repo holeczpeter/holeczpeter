@@ -38,4 +38,3 @@ jobs:
         password: \${{ secrets.FTP_PASSWORD }}
         local-dir: .  # A repository tartalmának helye, itt az aktuális könyvtár
         server-dir: /public_html  # Az FTP-szerveren a célmappa" > ../.github/workflows/deploy.yml
-
