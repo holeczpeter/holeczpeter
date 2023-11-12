@@ -5,7 +5,7 @@ set -e
 npm run build
 
 cp .github/workflows/deploy.yml dist/github/workflows/deploy.yml
-
+mv deploy.yml .github/workflows/
 
 cd dist
 git init
